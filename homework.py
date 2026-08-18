@@ -1,13 +1,9 @@
 import pandas as pd
 marks=pd.Series([85,78,90,88],index=["maths","science","english","computer"])
 print(marks)
-print(max(marks))
 print("highest marks:",max(marks))
-print(min(marks))
 print("lowest marks:",min(marks))
-print(marks.sum())
 print("Total marks:",marks.sum())
-print(marks.mean())
 print("Average marks:",marks.mean())
 
 marks_df=pd.DataFrame({"name":["anu","binu","chithra","ramesh"],"marks":[85,78,90,88]},index=["maths","science","english","computer"])
